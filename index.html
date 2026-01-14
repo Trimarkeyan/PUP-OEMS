@@ -332,8 +332,26 @@
     document.getElementById(id).style.display = "block";
   }
 </script>
+.login-box select {
+  background-color: #800000;   /* maroon */
+  color: #ffffff;              /* white text */
+  border: 1px solid #800000;
+  cursor: pointer;
+}
 
+/* Dropdown options */
+.login-box select option {
+  background-color: #800000;   /* maroon */
+  color: #ffffff;
+}
+
+/* Optional: hover/focus effect */
+.login-box select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.6);
+}
 </body>
 </html>
+
 
 
